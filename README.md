@@ -13,6 +13,7 @@ This is a project that detect language using machine learning. Currently it is o
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://images.squarespace-cdn.com/content/v1/50086bafe4b039e5965e6c0f/1534932692643-1618VJF0PHQZB4Y5ONHI/Hello+in+different+languages?format=750w" alt="Logo" width="280">
   </a>
+
 </div>
 <a href="https://preadvising.000webhostapp.com/index.php">Here's the link of the site, take a view.<img src="https://www.pinclipart.com/picdir/big/574-5744188_us-dealer-licensing-is-your-shield-check-marked.png" alt="Logo" width="25" align="right"><a>
   Or access directly - abidjawad.pythonanywhere.com
@@ -64,40 +65,35 @@ Use the `BLANK_README.md` to get started.
   
 Here's the list of all supported languages, this tool can detect the language if you try any sentence or word from these languages.
 
-![#34eb34](https://via.placeholder.com/15/34eb34/000000?text=+) English &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-![#c5f015](https://via.placeholder.com/15/000000/000000?text=+) German &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+![#34eb34](https://via.placeholder.com/15/34eb34/000000?text=+) English <br>
+![#c5f015](https://via.placeholder.com/15/000000/000000?text=+) German <br>
 ![#1589F0](https://via.placeholder.com/15/fff200/000000?text=+) Sweedish <br>
-![#219224](https://via.placeholder.com/15/0800ff/000000?text=+) Arabic &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Turkish &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+![#219224](https://via.placeholder.com/15/0800ff/000000?text=+) Arabic <br>
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Turkish<br>
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Kannada <br>
-![#1589F0](https://via.placeholder.com/15/34eb34/000000?text=+) Malayalam &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-![#219224](https://via.placeholder.com/15/1589F0/000000?text=+) Hindi &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+![#1589F0](https://via.placeholder.com/15/34eb34/000000?text=+) Malayalam <br>
+![#219224](https://via.placeholder.com/15/1589F0/000000?text=+) Hindi <br>
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Tamil <br>
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Portugeese &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-![#1589F0](https://via.placeholder.com/15/000000/000000?text=+) French &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Portugeese <br>
+![#1589F0](https://via.placeholder.com/15/000000/000000?text=+) French <br>
 ![#219224](https://via.placeholder.com/15/f200c2/000000?text=+) Dutch <br>
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Spanish <br>
 ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Greek <br>
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Russian <br>
 ![#219224](https://via.placeholder.com/15/ae00ff/000000?text=+) Danish <br>
 ![#219224](https://via.placeholder.com/15/00ddff/000000?text=+) Italian
-<p align="right">(<a href="#top">back to top</a>)</p>  
-  
-  
+<p align="right">(<a href="#top">back to top</a>)</p>    
 <div id="build2"></div>
+  
+## Built With
 
-
-### Built With
-
-
-
-* [JavaScript](https://nextjs.org/)
-* [SQL](https://reactjs.org/)
-* [CSS](https://reactjs.org/)
+* [Python](https://nextjs.org/)
+* [Django](https://reactjs.org/)
+* [scikit-learn](https://reactjs.org/)
 * [html](https://vuejs.org/)
-* [php](https://angular.io/)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [CSS](https://angular.io/)
+* [venv](https://getbootstrap.com)
+* [Pickle](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,10 +110,11 @@ Here's the list of all supported languages, this tool can detect the language if
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+I've attached here some preview of this project. Although i'll strongly recommend to visit the site to have a better overview.<br>
+<img src="images/testing1.gif"  align="center"><br><br><br>
+<img src="images/testing2.gif" alt="Logo" align="center">
+  <br><br><br>
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
