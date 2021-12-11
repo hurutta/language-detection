@@ -1,2 +1,2 @@
 # language-detection
-wer[giojRFG Rghuwrog
+This is a project that detect language using machine learning. 
