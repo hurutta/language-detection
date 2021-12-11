@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Language Detection</title>
+</head>
+
+<body style="margin: 0; width: 100vw; height: 100vh; background: #ecf0f3; display: flex; align-items: center;
+  text-align: center; justify-content: center; place-items: center; overflow: hidden; font-family: Monospace;">
+
+
+    <div class="container" style="position: relative;width: 550px;height: 600px;border-radius: 20px;padding: 40px;
+      box-sizing: border-box;background: #ecf0f3;box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;">
+
+            <!---------- head line -------------------------------------->
+            <div class="headline" style="margin-top: 10px;font-weight: 900;font-size: 2.4rem;color: black;
+            text-shadow: gray 0px 0 10px;letter-spacing: 1px;">
+                Language Detection</div><br>
+            <!---------- image -------------------------------------->
+            <div class="image" style="height: 100px;width: 200px;object-fit: cover;margin: auto;border-radius: 10%;
+            box-sizing: border-box;box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;">
+                <img src="https://images.squarespace-cdn.com/content/v1/50086bafe4b039e5965e6c0f/1534932692643-1618VJF0PHQZB4Y5ONHI/Hello+in+different+languages?format=750w" style="width: 200px; height: 100px; object-fit: cover;"></div>
+
+      <div class="inputs" style="text-align: left;margin-top: 30px;">
+        <label style="display: block;width: 100%;padding: 0;outline: none;box-sizing: border-box;margin-bottom: 8px;">Write the language you want to detect - </label>
+        
+        <!-------------- F O R M ---------------------------------->
+        <form action="{% url 'result' %}">
+          {% csrf_token %}
+        
+        <textarea placeholder="any language &#10;Eg.: hi! whatsup!&#10;как ты, как тебя зовут&#10;hasta la vista mama mia&#10;comment vas-tu, quel est ton nom&#10;vind je dit werk leuk?&#10;this project offer to detect 17 languages&#10;visit git repo attached below to see full chart" name="strval2" style="background: #ecf0f3;padding: 10px;padding-left: 
+        20px;height: 140px;width: 440px;font-size: 14px;border-radius: 20px;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;"></textarea>
+        
+        <button type="submit" style="display: block;width: 100%;padding: 0;
+  outline: none;box-sizing: border-box; margin-top: 20px;background: black;color: yellow; height: 40px;border-radius: 20px;
+  cursor: pointer;font-weight: 900;box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;transition: 0.5s;">DETECT</button> 
+        
+      <!-------------- R E S U L T --------------------------------->
+        <div class="result" style="margin-top: 20px;background: yellow;color: black; height: 40px;
+  border-radius: 20px;cursor: pointer;box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;transition: 0.5s;text-align: center;">
+  <h1  style="top: 20px;">
+        {{ result }}
+    </h1>
+        </div>
+      </form>
+      <!-------------- F O R M ----E N D --------------------------->
+      
+      </div>
+      <h1 style="position: absolute;font-size: 8px;bottom: -6px;left: 4px;color: black;background: red;
+    border-radius: 0px;padding: 2px;">  
+    <abbr title=" This language detection tool is developed by using machine learning model, to see more details please visit github repo of this project. Clcik github icon in the right side, thank you."> Hover to Read Details </abbr> </h1>
+    
+                <a href="https://www.github.com/hurutta">
+                <img src="https://pngimg.com/uploads/github/github_PNG84.png" width="20" style="bottom: -6px;margin-top: 30px">  
+                </a>
+    <h1 style="position: absolute;font-size: 8px;bottom: -6px;right: 4px;color: black;background: lime;
+    border-radius: 0px;padding: 2px;">Developed by : Jawad</h1>  
+</div>
+
+  
+</body>
+</html>
