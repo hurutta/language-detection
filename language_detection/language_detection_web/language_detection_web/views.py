@@ -8,8 +8,8 @@ def home(request):
 # custom method for generating predictions
 def getPredictions(strval):
     import pickle
-    model = pickle.load(open("/home/jawad/Documents/extra1/language_detection/language_detection_web/language_detection_web/language_detection_ml_model.sav", "rb"))
-    scaled = pickle.load(open("/home/jawad/Documents/extra1/language_detection/language_detection_web/language_detection_web/countvector.sav", "rb"))
+    model = pickle.load(open("language_detection/language_detection_web/language_detection_web/language_detection_ml_model.sav", "rb"))
+    scaled = pickle.load(open("language_detection/language_detection_web/language_detection_web/countvector.sav", "rb"))
     prediction = model.predict(scaled.transform([strval]))
     
     if prediction == 0:
