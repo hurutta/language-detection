@@ -15,7 +15,7 @@ This is a project that detect language using machine learning. Currently it is o
   </a>
 
 </div>
-<a href="abidjawad.pythonanywhere.com">Here's the link of the site, take a view.<img src="https://www.pinclipart.com/picdir/big/574-5744188_us-dealer-licensing-is-your-shield-check-marked.png" alt="Logo" width="25" align="right"><a>
+<a href="http://abidjawad.pythonanywhere.com">Here's the link of the site, take a view.<img src="https://www.pinclipart.com/picdir/big/574-5744188_us-dealer-licensing-is-your-shield-check-marked.png" alt="Logo" width="25" align="right"><a>
   Or access directly - abidjawad.pythonanywhere.com
 
  #
