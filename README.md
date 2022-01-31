@@ -15,7 +15,7 @@ This is a project that detect language using machine learning. Currently it is o
   </a>
 
 </div>
-<a href="https://preadvising.000webhostapp.com/index.php">Here's the link of the site, take a view.<img src="https://www.pinclipart.com/picdir/big/574-5744188_us-dealer-licensing-is-your-shield-check-marked.png" alt="Logo" width="25" align="right"><a>
+<a href="abidjawad.pythonanywhere.com">Here's the link of the site, take a view.<img src="https://www.pinclipart.com/picdir/big/574-5744188_us-dealer-licensing-is-your-shield-check-marked.png" alt="Logo" width="25" align="right"><a>
   Or access directly - abidjawad.pythonanywhere.com
 
  #
@@ -43,18 +43,10 @@ This is a project that detect language using machine learning. Currently it is o
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-This project is basically a online student portal, which offers academic stuffs such as pre-advising, course management, course details, time schedule, seat status for course etc. This also show the students informations.
-
-
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
+  
+This is a project is done by using machine learning algorithm.
+  
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
